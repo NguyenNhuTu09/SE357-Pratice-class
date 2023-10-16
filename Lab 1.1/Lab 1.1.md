@@ -1,4 +1,4 @@
-##1. What criteria should be used in choosing an appropriate requirement engineering tool?
+## 1. What criteria should be used in choosing an appropriate requirement engineering tool?
 
 - Requirements traceability mechanism
 - Requirements analysis mechanism
@@ -28,14 +28,14 @@
 - Intelligent support
 - Scalability
 
-##2. Are there any drawbacks to using certain tools in requirements engineering activities?
+## 2. Are there any drawbacks to using certain tools in requirements engineering activities?
 
 - The tool market is rapidly changing, and tools are becoming increasingly complex and diﬃcult to use. The complexity of the expensive commercial tools then creates opportunities for inexpensive tools to emerge, but don’t oﬀer sophisticated features.
 - Furthermore, validation functionalities such as consistency, correctness, and completeness are still lacking in most of the tools.
-  ##3. When selecting an open-source tool, what characteristics should you look for?
+## 3. When selecting an open-source tool, what characteristics should you look for?
 - Save cost: We can look for these tools before purchasing or trying to develop a tool from scratch.
 - Feature: There are also utilities or resources for requirements engineering.
-  ##4. How can tools enable distributed, global requirements engineering activities? What are the drawbacks in this regard?
+## 4. How can tools enable distributed, global requirements engineering activities? What are the drawbacks in this regard?
 
 Tools can enable distributed, global requirements engineering activities in:
 
@@ -65,10 +65,10 @@ Tools can enable distributed, global requirements engineering activities in:
 - Long-term archiving functionality: All data in the tool can be archived in a format accessible without the tool if necessary.
 
   - Drawbacks: - Archiving can be resource-intensive and may require significant storage space. - Retrieving archived data may be time-consuming, and compatibility with future tools and formats is not guaranteed.
-    ##5. If an environment does not currently engage in solid requirements engineering practices, should tools be introduced?
+## 5. If an environment does not currently engage in solid requirements engineering practices, should tools be introduced?
 
 - Introducing requirements engineering tools into an environment that does not currently engage in solid requirements engineering practices can be introduced, but it should be done thoughtfully, use the tool judiciously and follow certain best practices.
-  ##6. What sort of problems might you find through a traceability matrix that you might not see without one?
+## 6. What sort of problems might you find through a traceability matrix that you might not see without one?
 - Incomplete Requirements Coverage: The matrix can reveal gaps in requirements coverage by showing which requirements are not traced to any other artifacts, potentially uncovering missing or overlooked requirements.
 - Orphaned Artifacts: It can highlight artifacts that are not linked to any requirements, indicating a lack of alignment between project elements and objectives.
 - Inconsistent Changes: By tracking the relationships between requirements and other artifacts, it can help identify inconsistencies when changes in one artifact affect others, ensuring that the project remains coherent.
@@ -77,7 +77,7 @@ Tools can enable distributed, global requirements engineering activities in:
 - Circular References: The matrix can reveal circular references between requirements, which can lead to confusion and conflicts in the project. Automated verification tools can flag these circular references for correction. Regulatory and
 - Compliance Issues: It helps ensure that requirements are compliant with standards, regulations, and other external sources. It can identify cases where compliance is lacking or where requirements need to be aligned with new regulations.
 - Scope Creep and Redundancy: By examining the traceability matrix, it's possible to identify instances of scope creep or redundancy where requirements overlap or grow beyond the project's original scope.
-  ##How is AI being proposed for knowledge acquisition and representation in requirements specifications?
+## 7.How is AI being proposed for knowledge acquisition and representation in requirements specifications?
   AI being proposed for knowledge acquisition and representation in requirements specifications by:
 - Natural Language Processing (NLP): NLP techniques are used to extract and understand requirements from textual documents, emails, and other unstructured sources. NLP can identify key terms, concepts, and relationships within the text and convert them into structured representations.
 - Knowledge Graphs: AI can be used to build and maintain knowledge graphs that represent the relationships between various requirements, stakeholders, and related concepts. These graphs help visualize and navigate the complex web of requirements.
