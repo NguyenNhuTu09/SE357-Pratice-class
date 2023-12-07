@@ -1,0 +1,150 @@
+@startuml
+class Customer{
+String customerId
+String fullName
+String password
+String date
+Number age
+
+void logIn()
+void updateInformation()
+}
+
+class AdminSystem{
+String adminId
+String adminFullName
+Number age
+String date
+String password
+void createPostOffice()
+void updatePostManagement()
+}
+
+class Transpoter{
+String transpoterId
+String transpoterFullName
+Number age
+String date
+String password
+}
+
+class PostOffice{
+String postId
+String postManagerId
+String postName
+String addressPost
+
+void createInventorySales()
+}
+
+class PostEmployee{
+String postEmployeeId
+String postId
+String employeeFullName
+String date
+Number age
+
+void createInventoryReport()
+}
+
+class PostManager{
+String postManagerId
+String managerFullName
+String date
+Number age
+}
+
+
+class Payment{
+String paymentId
+String customerId
+
+void createBill()
+}
+
+class Bill{
+String billId
+String orderId
+String paymentMethod
+String datePayment
+Number pricePayment
+}
+
+
+
+
+class Order{
+String orderId
+String userId
+Date date
+String price
+String orderStatus()
+
+void createOrder()
+void viewOrder()
+void createPayment()
+}
+
+
+class Truck{
+String truckId
+String truckName
+Date billDate
+String transpoterId
+
+}
+
+
+class Review{
+String reviewId
+String userId
+String descReview
+String vote
+
+void AddReview()
+}
+
+class InventorySales{
+String reportId
+String postManagerId
+String month
+}
+
+class InventoryReport{
+String reportId
+String postEmployeeId
+String month
+}
+
+class PostManagement{
+String postManagerId
+String postEmployeeId
+String transporterId
+String trucId
+}
+
+class ComplaintHandling{
+String userId
+String descHandling
+String date
+}
+
+AdminSystem --> ComplaintHandling
+Customer --> Order
+Order --> Payment
+Order --> Truck
+Order --> ComplaintHandling
+Truck --> Transpoter
+AdminSystem --> Order
+Order --> Review
+Truck --> PostOffice
+AdminSystem --> PostManagement
+PostOffice --> PostManagement
+Payment --> Bill
+PostManagement --> PostManager
+PostManagement --> PostEmployee
+PostManagement --> Transpoter
+PostManagement --> Truck
+PostManager --> InventorySales
+PostEmployee --> InventoryReport
+@enduml
