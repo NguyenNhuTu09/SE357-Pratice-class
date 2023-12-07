@@ -24,8 +24,8 @@ This project have three part:
 <li>Lab 1.3: Requirements Linkage Traceability Matrix, Requirements Source Traceability Matrix, Requirements Stakeholder Traceability Matrix fast delivery support system. </li>
 </ol>
 
-**Additional information**:
+**Additional information**: N/A
 
-**Code of conducting**:
+**Code of conducting**: N/A
 
 **License**: MIT
